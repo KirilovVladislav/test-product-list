@@ -1,0 +1,32 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+
+    background-color: transparent;
+    border: none;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    
+    color: #4D5562;
+}
+
+.active {
+    background: #FFFFFF;
+    border: 1px solid #E2E3E5;
+    border-radius: 5px;
+}
+
+.button:hover:enabled .text {
+    transform: scale(1.3);
+}
+
+.button:disabled {
+    opacity: 0.5;
+}
